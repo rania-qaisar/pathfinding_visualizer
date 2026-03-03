@@ -21,7 +21,7 @@ def random_grid(S,T, prob=0.25):
             if (r,c) not in(S,T) and random.random()<prob:
                 g[r][c]=-1
     return g
-
+# ── Scenario generators ──
 def best_case_grid(S,T):
     """Very few walls — algorithm finds target quickly."""
     g=np.zeros((ROWS,COLS),dtype=int)
@@ -342,3 +342,4 @@ class App:
 
 
 app = App()
+
