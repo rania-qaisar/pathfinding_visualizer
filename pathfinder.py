@@ -149,7 +149,7 @@ ALGOS={'BFS':bfs,'DFS':dfs,'UCS':ucs,'DLS':dls,'IDDFS':iddfs,'Bidirectional':bid
 print('All 6 algorithms ready!')
 
 # ── Main App ──────────────────────────────────
-
+# ── GUI Application ──
 class App:
     def __init__(self):
         self.S=(0,0); self.T=(ROWS-1,COLS-1)
@@ -338,6 +338,7 @@ class App:
         self.path=[]; self.steps=0; self.t0=0; self.algo=''
         self.st.set_text('Grid cleared! Click an algorithm.')
         self._draw()
+
 
 
 app = App()
