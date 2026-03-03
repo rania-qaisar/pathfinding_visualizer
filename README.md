@@ -43,4 +43,4 @@ A grid-based pathfinding visualizer implementing 6 classic search algorithms wit
 | Orange | Final path found |
 
 ---
-Made by Rania Qaisar
+**Author:** Rania Qaisar
